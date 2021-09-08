@@ -109,3 +109,18 @@
     background-color: gainsboro;
     color: gainsboro;
 }
+
+ button {
+    text-align: center;
+    border:1px solid chartreuse;
+    padding: 10px 40px 10px 40px;
+    background:chartreuse; 
+    color: #092c41;
+    border-radius: 2em;
+    font-weight: bold;
+}
+
+.project {
+    padding: 40px;
+    text-align: center;
+}

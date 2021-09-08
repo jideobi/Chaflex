@@ -15,7 +15,8 @@
 <body>
 
   <nav class="navbar navbar-expand-md bg-dark navbar-dark">
-    <a class="navbar-brand" href="index.html" style="color:wheat; font-weight: bolder; font-family:cursive ;">CHAFLEX<p
+    <a class="navbar-brand" href="index.html"
+      style="color:wheat; font-weight: bolder; font-family:Georgia, 'Times New Roman', Times, serif ;">CHAFLEX<p
         style="color: pink; font-size: 13px;">Const. & Real Estate</p></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
       <span class="navbar-toggler-icon"></span>
@@ -29,7 +30,7 @@
           <a class="nav-link" href="#">Real Estate</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Construction</a>
+          <a class="nav-link" href="#">Sales</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">About Us</a>
@@ -38,7 +39,7 @@
           <a class="nav-link" href="#">Projects</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Sales</a>
+          <a class="nav-link" href="#">Consructions</a>
         </li>
       </ul>
     </div>
@@ -120,59 +121,64 @@
           <img src="image/th (1).jpg" width="70px" height="20%">
           <h1>Property management </h1>
           <p>With Chaflex Construction & Real Estate, you get more than property management;
-            you get a complete real estate solution. Property management goes far
-            beyond property performance. We will make your goals our own and develop
+            and complete real estate solution. We will make your goals our own and develop
             a deep understanding of your vision for every asset.
-
-            Our services are designed to bring value for money, providing efficiency
-            and economy. We continually look at ways to improve the quality of services,
-            reduce cost, and pass these benefits to our clients.</p>
+          </p>
         </div>
         <div>
           <img src="image/th.jpg" width="80px" height="20%">
           <h1>Construction Management</h1>
-          <p>Chaflex offer professional construction management services that match the
-            size of any given project. Innovative development, avant-garde architectural
-            designs and eco-friendly materials have been integrated in our construction
-            process giving a new style into buildings. We provide construction services
-            that enable our clients to achieve the best value and security on their investment,
+          <p>Chaflex offer professional construction management services. We provide construction services
+            that enable our clients to achieve the best value on their investment,
             while constructing their dream property in Nigeria.</p>
         </div>
         <div>
           <img src="image/th4.jpg" width="90px" height="20%">
           <h1>Renovation and home finishing</h1>
-          <p>Among our extensive range of services in real estate, Chaflex construction & Real Estate also offer
-            Renovation Services.
-            Projects of any scale are executed by our experienced team, able to deliver services such as
+          <p>Chaflex construction & Real Estate also offer
+            Renovation Services. We deliver services such as
             Renovation and Interior Design of existing buildings, installation of glass and Stainless Handrails,
-            Architectural design
-            and many more.</p>
+            Architectural design and many more.</p>
         </div>
       </div>
 
 
     </div>
   </div>
-
-  <div class="row">
-    <div class="col-sm-8" style="background-color:#092c41;">
-      <div class="our_main_service">
-        <h2>Our Main Services Include:</h2>
-        <li>Assessment and management of Real Estate</li>
-        <li>Installation of Glass and Stainless handrails</li>
-        <li>installation of all types of gates and foreign doors</li>
-        <li>General home finishing</li>
-        <li>Water collector installation</li>
-        <li>Installation of Electric fence</li>
+  <div id="our_main_service_window">
+    <div class="row">
+      <div class="col-sm-8" style="background-color:#092c41;">
+        <div class="our_main_service">
+          <h2>Our Main Services Include:</h2>
+          <li>Assessment and management of Real Estate</li>
+          <li>Installation of Glass and Stainless handrails</li>
+          <li>installation of all types of gates and foreign doors</li>
+          <li>General home finishing</li>
+          <li>Water collector installation</li>
+          <li>Installation of Electric fence</li>
+        </div>
       </div>
-    </div>
-    <div class="col-sm-4" style="background-color:lavenderblush;">
-      <div>
-        <img style="clear: right;" src="image/banner2.png" width="100%" height="100%">
+      <div class="col-sm-4" style="background-color:#092c41;">
+        <div>
+          <img style="clear: right;" src="image/banner2.png" width="60%" height="60%">
+        </div>
       </div>
     </div>
   </div>
-
+  <div id="our_main_service_mobile">
+    <div class="our_main_service" style="background-color:#092c41;">
+      <h2>Our Main Services Include:</h2>
+      <li>Assessment and management of Real Estate</li>
+      <li>Installation of Glass and Stainless handrails</li>
+      <li>installation of all types of gates and foreign doors</li>
+      <li>General home finishing</li>
+      <li>Water collector installation</li>
+      <li>Installation of Electric fence</li>
+    </div>
+    <div class="project">
+    <button> PROJECTS</button> 
+    </div>
+  </div>
 </body>
 
 </html>
@@ -183,11 +189,15 @@
       document.getElementById('mobile_service').style.display = 'none';
       document.getElementById('mobile_courasel').style.display = 'none';
       document.getElementById('window_courasel').style.display = 'block';
+      document.getElementById('our_main_service_window').style.display = 'block';
+      document.getElementById('our_main_service_mobile').style.display = 'none';
 
     } else {
       document.getElementById('mobile_service').style.display = 'block';
       document.getElementById('mobile_courasel').style.display = 'block';
       document.getElementById('window_courasel').style.display = 'none';
+      document.getElementById('our_main_service_window').style.display = 'none';
+      document.getElementById('our_main_service_mobile').style.display = 'block';
 
     }
   }
@@ -196,13 +206,18 @@
   window.onresize = function () {
     if (window.innerWidth > 800) {
       document.getElementById('mobile_service').style.display = 'none';
+      document.getElementById('our_main_service_mobile').style.display = 'none';
       document.getElementById('mobile_courasel').style.display = 'none';
       document.getElementById('window_courasel').style.display = 'block';
+      document.getElementById('our_main_service_window').style.display = 'block';
+
 
     } else {
       document.getElementById('mobile_service').style.display = 'block';
       document.getElementById('mobile_courasel').style.display = 'block';
       document.getElementById('window_courasel').style.display = 'none';
+      document.getElementById('our_main_service_window').style.display = 'none';
+      document.getElementById('our_main_service_mobile').style.display = 'block';
 
     }
   }
