@@ -161,21 +161,26 @@
     width: 50%;
     padding-left: 40px;
   }
+  .testimonial h3 {
+      font-size: 17px;
+      padding: 25px 0px 8px 0px;
+  }
   
   .image {
     display: block;
-    width: 80%;
-    height: 84%;
+    width: 84%;
+    height: 50%;
+    
   }
   
  .overlay {
     position: absolute;
     top: 0;
     bottom: 0;
-    left: 0;
+    left: 40px;
     right: 0;
-    height: 85%;
-    width: 85%;
+    height: 50%;
+    width: 84%;
     opacity: 0;
     transition: .5s ease;
     background-color: #008CBA;
@@ -208,34 +213,19 @@
   /********mobile testimonial***************************/
 .mtestimonial {
     position: relative;
-    width: 50%;
+    width: 100%;
     padding-left: 10%;
+    padding-bottom: 60px;
   }
   
   .mimage {
     display: block;
-    width: 180%;
-    height: 100%;
-    padding-bottom: 80px;
+    width: 85%;
+    height: 78%;
+    padding-bottom: 10px;
   }
   
- .moverlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 10%;
-    right: 0;
-    height: 95%;
-    width: 180%;
-    opacity: 0;
-    padding-left: 10%;
-    transition: .5s ease;
-    background-color: #008CBA;
-  }
-  
-  .mtestimonial:hover .moverlay {
-    opacity: 1;
-  }
+
   
   .mtext {
     color: white;
@@ -257,3 +247,11 @@
   .mtestiheader p {
       color: chocolate;
   }
+  .mtestimonial h3 {
+    font-size: 20px;
+    padding: 40px 20px 8px 0px;
+    
+}
+.mtestimonial p {
+    padding-right: 25px;
+}
