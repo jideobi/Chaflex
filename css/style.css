@@ -85,7 +85,7 @@
 }
 
 .message h2 {
-  color: #212529;
+  color: chocolate;
   text-align: center;
   font-weight: bold;
   width: auto;
@@ -165,6 +165,11 @@
       font-size: 17px;
       padding: 25px 0px 8px 0px;
   }
+  .testimonial a {
+    
+    color: rgb(150, 61, 61);
+    text-decoration: none;
+}
   
   .image {
     display: block;
@@ -245,4 +250,45 @@
 .mtestimonial button {
     background: red;
     color: white;
+}
+.searchfor h1 {
+  font-size: 25px;
+  color: white;
+  font-family: "Roboto",sans-serif;
+  line-height: 1.5em;
+  padding-right: 200px;
+  padding-left: 20px;
+}
+.searchfor {
+  background: #030615;
+  padding: 100px 20px 100px 20px;
+  display: flex;
+}
+.searchfor button {
+  padding: 10px 40px 10px 40px;
+  background: #f8f9fa;
+}
+.prohead {
+  text-align: center;
+}
+.prohead p {
+      color: chocolate;
+      padding-top: 100px;
+}
+.prohead h3 {
+ padding-bottom: 30px;
+}
+/********Mobile properies*********/
+.mprohead {
+  text-align: center;
+}
+.mprohead p {
+  color: chocolate;
+  padding-top: 50px;
+  font-size: 19px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.mprohead h3 {
+padding-bottom: 30px;
+font-size: 35px;
 }
