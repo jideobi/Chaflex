@@ -1,5 +1,5 @@
 .tablink {
-    background-color:#212529 ;
+    background-color:#343a40;
     float: left;
     color: white;
     border: none;
@@ -8,7 +8,7 @@
     padding: 14px 16px;
     font-size: 17px;
     width: 100%;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: left;
   }
   
@@ -23,5 +23,11 @@
     display: none;
     padding: 20px;
     
+  }
+  .tabcontent img {
+      padding-bottom: 30px;
+  }
+  .tabcontent h4 {
+      padding-bottom: 20px;
   }
  
