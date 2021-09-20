@@ -1,0 +1,27 @@
+.tablink {
+    background-color:#212529 ;
+    float: left;
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 100%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+  }
+  
+  .tablink:hover {
+    background-color: #777;
+    border: none;
+    outline: none;
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    display: none;
+    padding: 20px;
+    
+  }
+ 
