@@ -85,7 +85,7 @@
 }
 
 .message h2 {
-  color: chocolate;
+  color: wheat;
   text-align: center;
   font-weight: bold;
   width: auto;
@@ -264,9 +264,13 @@
   padding: 100px 20px 100px 20px;
   display: flex;
 }
-.searchfor button {
+.searchfor a {
   padding: 10px 40px 10px 40px;
   background: #f8f9fa;
+}
+.searchfor :hover {
+  text-decoration: none;
+  color: yellowgreen;
 }
 .prohead {
   text-align: center;
@@ -297,7 +301,7 @@ font-size: 25px;
 
 .windowfooter {
   background: #343a40;
-  color: palevioletred;
+  color:wheat;
   position: relative;
   width: 100%;
   min-height: 1px;

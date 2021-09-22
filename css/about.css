@@ -28,14 +28,14 @@
       padding-bottom: 30px;
   }
   .tabcontent h4 {
-      padding-bottom: 20px;
+      padding-top: 15px;
       font-family: freight-sans-pro;
       font-size: 18px;
       line-height: 1.8em;
       letter-spacing: .4px;
-      font-weight: 400;
+      font-weight:bold;
       font-style: normal;
-      color: black;
+      color:black;
   }
  #h3 h3 {
     font-family: freight-sans-pro;
