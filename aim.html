@@ -1,0 +1,49 @@
+<html lang="en">
+   
+   <head>
+        <meta charset="UTF-8">
+        <title>A.I MOVEMENT CLUB</title>
+        <link rel="stylesheet" href="css/login.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </head>
+
+    <body>
+        <div class="corasel" style="background-image: url('image/index.jpg');background-size: cover; background-repeat: no-repeat;">
+            <div class="crow" id='mobile_co'>
+                <div>
+                <h1>Connect at A.I Movement tech club.</h1>
+                    <p>Gain access to competive ventures<br>
+                    Capital funds and projects with attractive returns</p>
+                </div>
+                <div>
+                    <img src="image/catoon.png" width="200px"/>
+                   <h1> AI Movement Tech Club</h1>
+                   <p>Your tech career starts here...</p>
+                </div>
+           </div>
+
+        </div>
+
+    </body>
+
+    <script>
+      window.onload = function () {
+          if (window.innerWidth > 700) {
+              document.getElementById('mobile_co').style.display = 'none';
+            } else {
+                document.getElementById('mobile_co').style.display = 'block';
+            }
+        }
+        window.onresize = function () {
+            if (window.innerWidth > 700) {
+                document.getElementById('mobile_co').style.display = 'none';
+            } else {
+                document.getElementById('mobile_co').style.display = 'block';
+            }
+        }
+    </script>
+</html>

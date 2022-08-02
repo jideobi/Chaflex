@@ -40,9 +40,24 @@
     }
     
     
+    
     .login_form a {
         text-decoration: none;
         color: green;
         font-size: 15px;
     
     }
+
+    .corasel {
+        padding: 200px;
+     }
+     .corasel h1 {
+         color: brown;
+     }
+     
+     .corasel p {
+         color: orange;
+         text-align: center;
+         font-size: 24px;
+     }
+     
